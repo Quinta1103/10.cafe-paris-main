@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Parisienne&family=Satisfy&display=swap');
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1 {
+    font-family: "Parisienne";
+    font-size: 3em;
+    text-align: center;
+    color: darkgoldenrod;
+    margin: 3px;
+}
+#eslogan {
+        font-family: "Caveat";
+        font-style: italic;
+        text-align: center;
+        font-size: 2em;
+        color: cornsilk;
+        border: 2px solid cornsilk;
+        width: 40%;
+        margin: auto;
+}
+h2 {
+    color: #FFE4C4;
+    font-family: "Pacifico";
+}
+a {
+    font-size: 1.5em;
+    font-family: "Pacifico";
+    text-decoration: none;
+}
+a:link {
+    color: white;
+}
+a:hover {
+    font-weight: bold;
+}
+a:active {
+    color: darkgoldenrod;
+}
+a:visited {
+    color: white;
+}
+.texto-normal {
+    font-family: "Satisfy";
+    font-size: 1.2em;
+    color: #FFE4C4;
+    text-align: justify;
+    line-height: 2;
+    padding: 30px;
+}
+#logocafe {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#contenedor-logo {
+    text-align: center;
+}
+body {
+    background-image: url(https://www.fmdos.cl/wp-content/uploads/2020/10/8de1aa1026a673886c0a6020541354b2-1536x1024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul li {
+    color: white;
+}
+.fotocarta {
+    height: 200px; width: 200px;
+}
+.categoria {
+    background-color: darkgoldenrod;
+    font-size: 2em;
+    text-shadow: 3px 3px white;
+}
+table,td,th {
+    border: 3px solid darkgoldenrod; border-collapse: collapse;
+    vertical-align: center; 
+    width: 50%; padding: 20px;
+}
+table {
+    background-color: cornsilk;
+    font-family: "Satisfy"; 
+    font-size: 1.5em; 
+    text-align: center; 
+    margin: auto;}
+label {
+    font-family: "Caveat";
+    color: cornsilk;
+    font-size: 1.5em;
+}

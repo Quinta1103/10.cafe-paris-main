@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Cafe Paris</h1>
+    <p id="eslogan">Un momento de relax</p>
+    <ul>
+        <li><a href="index.html">Principal</a></li>
+        <li><a href="carta.html">Nuestra Carta</a></li>
+        <li><a href="contacto.html">Contácta con nosotros</a></li>
+    </ul>
+    <h2>Contácte con nosotros</h2>
+    <form method="get" action="procesacontacto.php">
+        <p>
+            <label for="nombre">Nombre y Apellidos</label>
+            <input placeholder="Escriba su nombre y apellido" required type="text" name="nombre" id="nombre">
+        </p>
+        <p>
+            <label for="fecha">Fecha de Nacimiento</label>
+            <input required type="date" name="fecha" id="fecha">
+        </p>
+        <p>
+            <label for="consumir">Suele consumir</label>
+            <input type="radio" name="bebida" id="cafe">
+            <label for="cafe">Café</label>
+            <input type="radio" name="bebida" id="te">
+            <label for="te">Té</label>
+            <input type="radio" name="bebida" id="ambos">
+            <label for="ambos">Ambos</label>
+        </p>
+        <p>
+            <label for="cafedia">Número de cafés al día</label>
+            <input min="1" max="5" type="number" name="cafedia" id="cafedia">
+        </p>
+        <p>
+            <label for="cafeteria">Seleccione su cafetería</label>
+            <select name="cafeteria" id="cafeteria">
+                <option selected value="md">Madrid</option>
+                <option value="sl">Salamanca</option>
+                <option value="bc">Barcelona</option>
+            </select>
+        </p>
+        <p>
+            <input checked type="checkbox" name="deseo" id="deseo">
+            <label for="deseo">Deseo recibir información sobre novedades y ofertas</label>
+        </p>
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+    </form>
+</body>
+</html>
